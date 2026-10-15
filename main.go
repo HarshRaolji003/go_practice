@@ -52,6 +52,6 @@ func printMe(printValue string){
 }
 
 func intDivision(numerator int, denominator int) int {
-	var result int = numerator%denominator
+	var result int = numerator/denominator
 	return result
 }
