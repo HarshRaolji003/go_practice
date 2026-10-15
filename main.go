@@ -16,9 +16,9 @@ func main(){
 	// fmt.Println("Result:", result);
 
 	// var myString string = "Hello World"
-	var myString string = 
-	`Hello World`
-	fmt.Println(myString)
+	// var myString string = 
+	// `Hello World`
+	// fmt.Println(myString)
 
 	// fmt.Println(len("$"))
 
@@ -52,6 +52,6 @@ func printMe(printValue string){
 }
 
 func intDivision(numerator int, denominator int) int {
-	var result int = numerator/denominator
+	var result int = numerator%denominator
 	return result
 }
